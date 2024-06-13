@@ -1,0 +1,106 @@
+body{
+  font-family: 'Times New Roman', Times, serif;
+  padding: 250px;
+  margin: 200px;
+  background-color: rgb(51, 51, 90);
+  font-size: 20px;
+  color: gray;
+  text-align: center;
+}
+
+header{
+  font-size: 150px;
+  color: white;
+  text-align:center;
+  margin: 15px;
+  transition-duration: 1s;
+
+}
+
+header:hover {
+color: lightgreen;
+}
+
+header::before,
+header::after{
+content: "☆";
+color: blueviolet;
+position: static;
+  margin: 20px;
+  font-size: 300px;
+}
+
+
+p{
+transition-duration: 0.5s;
+  font-size: 40px;
+  color: white;
+  text-align:center;
+  margin: 20px;
+}
+
+p:hover {
+color: lightgreen;
+}
+
+p::before
+{
+content: "“";
+color: green;
+position: static;
+  margin: 10px;
+}
+
+p::after
+{
+content: "”";
+color: green;
+position: static;
+  margin: 10px;
+}
+
+
+button{
+transition-duration: 1.5s;
+display: center;
+padding: 30px;
+font-size: 40px;
+color: white;
+background-color: blueviolet;
+border: 20px;
+border-radius: 50px 30px;
+position: static;
+cursor: help;
+margin: 30px
+}
+
+button:hover {
+background-color: #04AA6D;
+color: white;
+}
+
+button::before
+{
+content: "👉";
+color: white;
+position: static;
+  margin: 10px;
+}
+
+button::after
+{
+content: "👈";
+color: white;
+position: static;
+  margin: 10px;
+}
+
+
+.center {
+margin: auto;
+width: 100%;
+border: 2px solid #73AD21;
+padding: 25px;
+display: center;
+border-radius: 80px;
+}
